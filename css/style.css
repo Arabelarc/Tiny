@@ -1,0 +1,98 @@
+*{
+	box-sizing border-box;
+}
+body{
+	font-family: "Roboto-light";
+	color: #C0C0BC;
+	width: 100%;
+	text-align: center;
+	padding:0;
+	margin:0;
+}
+.clearfix:before, .clearfix:after{
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+/*START : Contenedor Principal*/
+.container{ 
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.header{
+	width: 100%;
+	height: 667px;
+	background-size:cover;
+	background-image: url(../img/header.jpg);
+}
+.button-sumate {
+  width: 70px;
+  height: 15px;
+  background-color: rgb(250, 247, 115);
+  color: white;
+  border-radius: 3px;
+  padding: 15px;
+  position: fixed;
+  left: 66px;
+  top: 62px;
+}
+.naver{
+	position: absolute;
+	width: 33%;
+	right: 1%;
+	top: 10%;
+}
+li {
+	display: inline-block;
+	padding: 20px;
+}
+a{
+	text-decoration: none;
+ 	color: white;
+}
+.texto-laboratoria{
+	  padding-top: 300px;
+}
+/*End Menú */
+.box{
+	background-color: #EDEDED;
+	padding:20px;
+}
+.content-box{
+	margin: 0 10%;
+}
+.row{
+	float: left;
+  width: 50%;
+}
+.col-6{
+	background-color: white;
+  padding: 16px;
+  float: left;
+  margin: 7px;
+}
+.content-img > img{
+	width: 80%;
+	height: 50%;
+	margin: 0 auto;
+}
+h3 , span {
+	color: gray;
+}
+.button-vermas{
+  width: 116px;
+  height: 35px;
+  padding-top: 15px;
+  margin-top: 35px;
+  background-color: rgb(250, 247, 115);
+  color: white;
+}
+.footer{
+	height: 80px;
+	background-color: #262624;
+	padding: 10px;
+	color: white;
+}
