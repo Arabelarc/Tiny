@@ -1,13 +1,18 @@
 *{
 	box-sizing border-box;
 }
+html {
+	width: 100%;
+	height: 100%;
+}
 body{
 	font-family: "Roboto-light";
-	color: #C0C0BC;
 	width: 100%;
 	text-align: center;
 	padding:0;
 	margin:0;
+	width: 100%;
+	height: 100%;
 }
 .clearfix:before, .clearfix:after{
   content: " ";
@@ -24,22 +29,25 @@ body{
 }
 .header{
 	width: 100%;
-	height: 667px;
+	height: 100%;
 	background-size:cover;
 	background-image: url(../img/header.jpg);
 }
 .button-sumate {
-  width: 70px;
-  height: 15px;
-  background-color: rgb(250, 247, 115);
-  color: white;
+	background-color: #FCBA43;
   border-radius: 3px;
-  padding: 15px;
   position: fixed;
+  padding: 15px;
+  height: 15px;
+  color: white;
+  width: 70px;
   left: 66px;
-  top: 62px;
+  top: 92px;
 }
-.naver{
+.button-sumate:hover{
+  background-color: rgb(250, 247, 115);
+}
+.navigation{
 	position: absolute;
 	width: 33%;
 	right: 1%;
@@ -54,41 +62,48 @@ a{
  	color: white;
 }
 .texto-laboratoria{
-	  padding-top: 300px;
+	padding-top: 300px;
+	color: white;
 }
 /*End Menú */
-.box{
+.grid{
 	background-color: #EDEDED;
 	padding:20px;
 }
-.content-box{
+.grid-content{
 	margin: 0 10%;
 }
 .row{
 	float: left;
   width: 50%;
 }
-.col-6{
+.col{
 	background-color: white;
   padding: 16px;
   float: left;
   margin: 7px;
+}
+p , h3 {
+ 	color: #C0C0BC;
 }
 .content-img > img{
 	width: 80%;
 	height: 50%;
 	margin: 0 auto;
 }
-h3 , span {
-	color: gray;
+span {
+	color: white;
 }
 .button-vermas{
+	background-color: #FCBA43; 
   width: 116px;
   height: 35px;
   padding-top: 15px;
   margin-top: 35px;
-  background-color: rgb(250, 247, 115);
   color: white;
+}
+.button-vermas:hover{
+  background-color: rgb(250, 247, 115);
 }
 .footer{
 	height: 80px;
