@@ -45,7 +45,7 @@ body{
   top: 92px;
 }
 .button-sumate:hover{
-  background-color: rgb(250, 247, 115);
+  background-color:  #f4c416;
 }
 .navigation{
 	position: absolute;
@@ -103,7 +103,7 @@ span {
   color: white;
 }
 .button-vermas:hover{
-  background-color: rgb(250, 247, 115);
+  background-color:  #f4c416;
 }
 .footer{
 	height: 80px;
